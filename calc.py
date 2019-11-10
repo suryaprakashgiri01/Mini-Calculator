@@ -1,15 +1,16 @@
 
-# This is a smart calculator
+# This is a Mini calculator
 
 print()
 print('     ------------------------------------------------------------------')
 print('     |                  Welcome to the mini calculator                |')
+print('     |                                    Code By : SP                |')
 print('     ------------------------------------------------------------------')
 print()
 con = True
 while(con):
 	print()
-	print('Enter the exptession as num1 sign num2 :',end=' ')
+	print('Enter the expression as num1 sign num2 :',end=' ')
 	exp = input()
 	exp_l =  exp.split(' ')
 	print()
